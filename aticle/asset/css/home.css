@@ -1,0 +1,77 @@
+*{
+        padding:0px;
+        margin: 0px;
+}
+
+/* <!-- Nav bar Food cambodia on top --> */
+.web{
+        padding:0px;
+}
+.navbar_top{
+height: 90px;
+background-color: rgb(0, 224, 150);
+display: flex;
+padding:10px 20px;
+justify-content: space-between;
+align-items: center;
+color:white;
+
+}
+.title_logo{
+        font-size: 19px;
+        padding:5px 10px;
+        border: 1px solid white;
+}
+.list_navbar{
+        list-style-type: none;
+        
+}
+.list_navbar li{
+        float:left;
+    
+}
+.list_navbar li a{
+        text-decoration: none;
+        display: block;
+        padding:10px 20px;
+        font-size: 19px;
+        color:white;
+}
+
+
+/* banner image */
+.banner_image{
+        height: 500px;
+
+}
+.banner_image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-position: 20px;
+}
+/* <!-- menu_food --> */
+.menu_food{
+        padding:0px 50px 20px 50px;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+
+}
+.menu_food .row{
+        height: 250px;
+}
+figure{
+        width: 100%;
+        height: 100%;
+}
+
+body{
+        height: 3000px;
+}
+
+
+
+
+
+
