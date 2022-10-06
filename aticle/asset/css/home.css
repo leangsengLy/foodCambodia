@@ -64,7 +64,7 @@ color:white;
 .menu_food .title_food {
         padding-top: 20px;
         padding-bottom: 10px;
-     
+        
         padding-left: 30px;
        
 }
@@ -73,6 +73,7 @@ color:white;
         height: auto;
         padding:0px 50px;
 }
+
 .menu_food .row .col-sm-3{
         padding:0px 20px;
         margin-bottom: 26px;
@@ -124,7 +125,10 @@ color:white;
         
 }
 
-
+.menu_food .row .col-sm-3 a{
+        text-decoration: none;
+        color:black;
+}
 .menu_food .row .col-sm-3 .text{
         width: 100%;
         height: 30%;
@@ -133,6 +137,7 @@ color:white;
 }
 .text p{
         margin: 0px;
+       
 }
 .menu_food .row .col-sm-3 .text p + p{
         display: flex;
@@ -189,6 +194,53 @@ img{
 .footer .container .row .col-sm-4 ul li a{
         color:white;
         text-decoration: none;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*responsive code*/

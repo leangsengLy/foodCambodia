@@ -1,62 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
-        <!-- start 10-04-2022 at 5:20AM  end time 6:13AM-->
-        <!-- start 10-05-2022 at 5:06AM  end time 6:06AM-->
-        <!-- start 10-06-2022 at 5:06AM  end time 6:06AM-->
-        <link rel="stylesheet" href="../plugin/css/bootstrap.min.css">  <!-- connect with css bootstrap -->
-        <link rel="stylesheet" href="../aticle/asset/css/home.css">  <!-- connect with css style -->
-        <!-- //link with icon from bootstrap -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> 
-
-</head>
-<body>
-  
-        <div class="container-fluid web">
-                <!-- Nav bar Food cambodia on top -->
-                <div class="navbar_top">
-                        <div class="title_logo">
-                                Food Cambodia
-                        </div>
-                        <div>
-                                <ul class="list_navbar">
-                                        <li><a href="">Food</a> </li>
-                                        <li><a href="">Service</a></li>
-                                        <li><a href="">Contact</a></li>
-                                        <li><a href="">Comment</a></li>
-                                        <li><a href="">Team</a></li>
-                                </ul>
-                        </div>
-                </div>
-                <!-- banner image -->
-                <div class="banner_image">
-                        <img src="../image/background_slide.jpg" alt="">
-                </div>
+<?php include("header.php");
+     
+?>
                 <!-- menu_food -->
                 <div class="container">
                         <div class="menu_food">
                                 <h3 class="title_food">The Food</h3>
                                 <div class="row">
+                                       
                                         <div class="col-sm-3">
-                                                <div class="box_food">
-                                                        <div class="image_food">
-                                                                <img src="../image/hamberger.jpg" alt="">
-                                                                <div class="black"></div>
-                                                                <div class="eye"><i class="fas fa-eye"></i></div>
-                                                                
+                                                <a href="view_food.php">
+                                                        <div class="box_food">
+                                                                <div class="image_food">
+                                                                        <img src="../image/hamberger.jpg" alt="">
+                                                                        <div class="black"></div>
+                                                                        <div class="eye"><i class="fas fa-eye"></i></div>
+                                                                        
+                                                                </div>
+                                                                <div class="text">
+                                                                        <h5 class="header_title">
+                                                                        Humberger
+                                                                        </h5>
+                                                                        <p>1. Category for make</p> 
+                                                                        <p>2. How to cock <span> 1 <i class="fas fa-eye"></i></span></p>  
+                                                                </div>
                                                         </div>
-                                                        <div class="text">
-                                                                <h5 class="header_title">
-                                                                      Humberger
-                                                                </h5>
-                                                                <p>1. Category for make</p> 
-                                                                <p>2. How to cock <span> 1 <i class="fas fa-eye"></i></span></p>  
-                                                        </div>
-                                                </div>
+                                                </a>
                                         </div>
                                         <div class="col-sm-3">
                                                 <div class="box_food">
@@ -480,37 +448,6 @@
                                 </div>
                         </div>
                 </div>
+<?php  include("footer.php"); ?>
            
-                <!-- footer -->
-                <div class=" footer">
-                       <div class="container">
-                                <div class="row">
-                                        <div class="col-sm-4">
-                                        <h4>Food Cambodia</h4>
-                                        </div>
-                                        <div class="col-sm-4">
-                                                <h4>Menu</h4>
-                                                <ul>
-                                                        <li><a href="">Food</a></li>
-                                                        <li><a href="">Fastfood</a></li>
-                                                        <li><a href="">Comment</a></li>
-                                                        <li><a href="">Team</a></li>
-                                                        
-                                                </ul>
-                                        </div>
-                                        <div class="col-sm-4">
-                                                <h4>Contact</h4>
-                                                <ul>
-                                                        <li><a href="">Phone : 015 844 712</a></li>
-                                                        <li><a href="">Edeepleang@gmail.com</a></li>
-                                                        <li><a href="">Social Media Only</a></li>
-                                                       
-                                                </ul>
-                                        </div>
-                                </div>
-                       </div>
-                </div>
-
-        </div>
-</body>
-</html>
+         
